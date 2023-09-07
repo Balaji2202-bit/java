@@ -16,7 +16,7 @@ public class Pattern
 
                 }
                 else {
-                    System.out.print("& ");
+                    System.out.print("&");
                 }
 
             }
