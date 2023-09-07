@@ -8,7 +8,7 @@ public class Pattern
             {
                 if(i==0 ||i==5)
                 {
-                    System.out.print("* ");
+                    System.out.print("*");
 
                 }
                 if((j==0)||j==5 ) {
