@@ -17,7 +17,7 @@ class Ddd extends Aaa {
 // Driver Class
  public class Hierarchical {
     public static void main(String[] args)
-    {git Bbb obj_B = new Bbb();
+    { Bbb obj_B = new Bbb();
         obj_B.print_A();
         obj_B.print_B();
 
