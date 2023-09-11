@@ -1,5 +1,5 @@
 import java.io.*;
- public class Jacked_Array
+ public class Jagged_Array
  {
     public static void main(String[] args)
     {
