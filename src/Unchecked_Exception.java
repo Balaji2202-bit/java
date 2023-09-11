@@ -34,7 +34,5 @@ public class Unchecked_Exception {
 //        catch (NumberFormatException e) {
 //            System.out.println("NumberFormatException Occured");
 //        }
-
-
     }
 }

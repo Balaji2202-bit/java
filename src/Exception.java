@@ -21,29 +21,35 @@ class Exceptional
 //            System.out.println(e.getStackTrace());
 //
 //        }
-        try
-        {
-            File file=new File("//text.txt");
+//        try
+//        {
+//            File file=new File("//text.txt");
+//            FileReader fileReader=new FileReader(file);
+//            BufferedReader bufferedReader=new BufferedReader(fileReader);
+//          System.out.println(bufferedReader.read());
+//            System.out.println(bufferedReader.read());
+////            System.out.println(fileReader.read());
+////            System.out.println(fileReader.read());
+//            System.out.println(bufferedReader.read());
+////            Scanner sc=new Scanner(file);
+////            int string=sc.next();
+////        System.out.println(string);
+//
+//        }
+//        catch (FileNotFoundException e)
+//        {
+//            System.out.println("file not found");
+//        }
+//        catch (IOException e)
+//        {
+////            throw new RuntimeException(e);
+//            System.out.println("IO exceptionl");
+//        }
+        File file=new File("C:\\Users\\balaji.balaraman\\IdeaProjects\\MyProgram\\src\\text.txt");
+        try {
             FileReader fileReader=new FileReader(file);
-            BufferedReader bufferedReader=new BufferedReader(fileReader);
-          System.out.println(bufferedReader.read());
-            System.out.println(bufferedReader.read());
-//            System.out.println(fileReader.read());
-//            System.out.println(fileReader.read());
-            System.out.println(bufferedReader.read());
-//            Scanner sc=new Scanner(file);
-//            int string=sc.next();
-//        System.out.println(string);
-
-        }
-        catch (FileNotFoundException e)
-        {
-            System.out.println("file not found");
-        }
-        catch (IOException e)
-        {
-//            throw new RuntimeException(e);
-            System.out.println("IO exceptionl");
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
         }
     }
 }
