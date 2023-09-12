@@ -27,6 +27,8 @@ int z[]={1,3,4,6,7,8,0};
 }
 */
 
+import java.util.Arrays;
+
 class Students {
     public int roll_no;
     public String name;
@@ -57,10 +59,12 @@ class Students {
  class Test {
      public static void main(String args[])
      {
-         int intArray[] = new int[3];
+         int intArray[] = {1,2,3,4};
          byte byteArray[] = new byte[3];
          short shortsArray[] = new short[3];
-
+         System.out.println(intArray); // it return reference
+         System.out.println(intArray.toString());// it return reference
+         System.out.println("d,cmd"+ Arrays.toString(intArray)); // it return data of the Array
          // array of Strings
          String[] strArray = new String[3];
 
