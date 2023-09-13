@@ -39,5 +39,7 @@ public class LinkedToArray
         // element returns the first element of the list
         System.out.println(list.element());
         System.out.println(list.toString());
+
+
     }
 }
