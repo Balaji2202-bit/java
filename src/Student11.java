@@ -14,10 +14,10 @@ class Student10
     }
     public void setMark(){
         Scanner scanner=new Scanner(System.in);
-        for (String sub:
-             ) {
-
-        }
+//        for (String sub:
+//             ) {
+//
+//        }
 
     }
 }
