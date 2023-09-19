@@ -27,6 +27,19 @@ public class Treeset {
         // it maintains the descending order
         Set x=s.descendingSet();
         System.out.println(s.descendingSet());
+        // TreeSet
+        TreeSet t=new TreeSet(Arrays.asList(s));
+        TreeSet<String > t1=new TreeSet<>(new Comparator<String >() {
+
+            // Comparator class
+            @Override
+            public int compare(String  o1, String o2) {
+                Integer len1=o1.length();
+                Integer len2=o2.length();
+                return len1.compareTo(len2);
+            }
+        }
+        );
 
     }
 }
