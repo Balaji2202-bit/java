@@ -45,7 +45,7 @@ public class Wait_Notify
             sc.nextLine();
             System.out.println("Return key pressed...");
             notify();
+            Thread.sleep(5000);
         }
-
     }
 }
